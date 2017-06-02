@@ -79,7 +79,7 @@ margin-top: 20%;
 .left-title{
 font-size: 80px;
 color: #ff4545;
-margin-left: 9%;
+margin-left: 19%;
 line-height: 110%;
 font-family: 'Montserrat Subrayada', sans-serif;
 }
@@ -106,15 +106,23 @@ line-height: 110%;
 }
 .info-box{
   margin-top: 1%;
-margin-left: 10%;
-margin-right: 10%;
+margin-left: 20%;
+margin-right: 20%;
 font-size: 25px;
 color: #ffffff;
 }
+.scroll-down-text {
+  margin-top: 20%;
+margin-left: 39%;
+margin-right: 39%;
+font-size: 25px;
+color: #ffffff;
+}
+
 .heading{
   margin-top: 3;
-margin-left: 10%;
-margin-right: 10%;
+margin-left: 20%;
+margin-right: 20%;
 font-size: 28px;
 color: #ffffff;
 }
@@ -128,16 +136,16 @@ height: 100vh;
 }
 
 .step-three-four {
-height: 100vh;
+height: 150vh;
 
 }
 .step-five-six{
-height: 100vh;
+height: 90vh;
 
 }
 
 .footer {
-height: 25vh;
+height: 15vh;
 color: #333333;
 }
 
@@ -145,4 +153,258 @@ color: #333333;
 display:flex;
 
 
+}
+
+
+
+/*scroll down mouse starts here*/
+}
+[data-ca3_icon]::before {
+    font-weight: normal;
+    content: attr(data-ca3_icon);
+}
+
+.ca3-scroll-down-arrow {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.ca3-scroll-down-link {
+  cursor:pointer;
+	height: 60px;
+	width: 80px;
+	margin: 0px 0 0 -40px;
+	line-height: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: 0px;
+	color: #FFF;
+	text-align: center;
+	font-size: 70px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
+	-webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+	-moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
+	animation:         ca3_fade_move_down 2s ease-in-out infinite;
+}
+
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes ca3_fade_move_down {
+  0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,20px); opacity: 0; }
+}
+@-moz-keyframes ca3_fade_move_down {
+  0%   { -moz-transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,20px); opacity: 0; }
+}
+@keyframes ca3_fade_move_down {
+  0%   { transform:translate(0,-20px); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,20px); opacity: 0; }
+}
+/*social media icons start here*/
+.h1{
+  text-decoration: none;
+}
+.social-names{
+text-decoration: none;
+
+}
+
+.container {
+  height: 75px;
+  width: 100%;
+  display: table;
+  margin: 0;
+}
+
+nav a {
+  display: table-cell;
+  color: white;
+  width: 14.2%;
+  text-align: center;
+  font-size: 2em;
+  padding: .5em;
+}
+@media (max-width: 768px) {
+  nav a {
+    font-size: 1.5em;
+  }
+}
+nav a:first-child {
+  border-radius: 5px 0 0 5px;
+}
+@media (max-width: 768px) {
+  nav a:first-child {
+    border-radius: 0;
+  }
+}
+nav a:last-child {
+  border-radius: 0px 5px 5px 0px;
+}
+@media (max-width: 768px) {
+  nav a:last-child {
+    border-radius: 0;
+  }
+}
+
+/*
+Here's a handy list of social media colors: https://goo.gl/7uo5TR
+*/
+/*Facebook*/
+/*Twitter*/
+/*Google Plus*/
+/*Instagram*/
+/*Tumblr*/
+/*Flickr*/
+/*Vine*/
+/*
+Setting equal widths dependent on the number of links.
+Add or remove as many as necessary.
+*/
+/* one item */
+nav a:first-child:nth-last-child(1) {
+  width: 100%;
+}
+
+/* two items */
+nav a:first-child:nth-last-child(2),
+nav a:first-child:nth-last-child(2) ~ a {
+  width: 50%;
+}
+
+/* three items */
+nav a:first-child:nth-last-child(3),
+nav a:first-child:nth-last-child(3) ~ a {
+  width: 33.3333%;
+}
+
+/* four items */
+nav a:first-child:nth-last-child(4),
+nav a:first-child:nth-last-child(4) ~ a {
+  width: 25%;
+}
+
+/* five items */
+nav a:first-child:nth-last-child(5),
+nav a:first-child:nth-last-child(5) ~ a {
+  width: 20%;
+}
+
+/* six items */
+nav a:first-child:nth-last-child(6),
+nav a:first-child:nth-last-child(6) ~ a {
+  width: 16.666%;
+}
+
+/* seven items */
+nav a:first-child:nth-last-child(7),
+nav a:first-child:nth-last-child(7) ~ a {
+  width: 14.285%;
+}
+
+/* eight items */
+nav a:first-child:nth-last-child(8),
+nav a:first-child:nth-last-child(8) ~ a {
+  width: 12.5%;
+}
+
+/*
+Assigning link background colors and setting the hover and active states. For quick adding of buttons, perform a search + replace on the 2 letter variable name.
+*/
+nav a.fb {
+  background: #3B5998;
+  text-shadow: 1px 1px 0px #263961;
+}
+nav a.fb:hover {
+  color: #3055a3 !important;
+  background: #2d4373;
+}
+nav a.fb:active {
+  color: #3B5998;
+  background: #1e2e4f;
+}
+
+nav a.tw {
+  background: #55ACEE;
+  text-shadow: 1px 1px 0px #1689e0;
+}
+nav a.tw:hover {
+  color: #4cadf7 !important;
+  background: #2795e9;
+}
+nav a.tw:active {
+  color: #55ACEE;
+  background: #147bc9;
+}
+
+nav a.gp {
+  background: #DD4B39;
+  text-shadow: 1px 1px 0px #ac2d1e;
+}
+nav a.gp:hover {
+  color: #e9422d !important;
+  background: #c23321;
+}
+nav a.gp:active {
+  color: #DD4B39;
+  background: #96271a;
+}
+
+nav a.ig {
+  background: #517FA4;
+  text-shadow: 1px 1px 0px #385771;
+}
+nav a.ig:hover {
+  color: #4580b0 !important;
+  background: #406582;
+}
+nav a.ig:active {
+  color: #517FA4;
+  background: #2f4a60;
+}
+
+nav a.fl {
+  background: #FF0084;
+  text-shadow: 1px 1px 0px #b3005c;
+}
+nav a.fl:hover {
+  color: #ff0084 !important;
+  background: #cc006a;
+}
+nav a.fl:active {
+  color: #FF0084;
+  background: #99004f;
+}
+
+nav a.tu {
+  background: #32506D;
+  text-shadow: 1px 1px 0px #1a2a39;
+}
+nav a.tu:hover {
+  color: #2a5075 !important;
+  background: #22364a;
+}
+nav a.tu:active {
+  color: #32506D;
+  background: #121d27;
+}
+
+nav a.vi {
+  background: #00BF8F;
+  text-shadow: 1px 1px 0px #007356;
+}
+nav a.vi:hover {
+  color: #00bf8f !important;
+  background: #008c69;
+}
+nav a.vi:active {
+  color: #00BF8F;
+  background: #005943;
 }
