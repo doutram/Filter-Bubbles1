@@ -1,7 +1,6 @@
 body {
   background-color : #e6d8ff;
-  font-family      : tahoma,
-                     sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 
 .filter-graphic-one {
@@ -90,8 +89,8 @@ body {
 
 .left-title {
   margin-left : 9%;
-  color       : #ff4545;
-  font-family : 'Montserrat Subrayada',
+  color       : #333;
+  font-family: 'Montserrat', sans-serif;
                 sans-serif;
   font-size   : 80px;
   line-height : 110%;
